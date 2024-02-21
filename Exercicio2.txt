@@ -1,0 +1,19 @@
+1 - Somando a+b irá fazer a soma dos números, ficando 1+2 = 3.
+Somando c+d irá concatenar os caracteres visto o tipo de variável ser uma string, ficando assim com o resultado final de 12.
+
+2 - para terem o mesmo resultado podiamos converter as variáveis A e B para string ou as variáveis C e D para números inteiros.
+
+3 -
+a) pode
+b) pode
+c) não pode, os nomes de variáveis não podem começar com números
+d) pode
+e) pode
+f) não pode, tem um espaço
+g) pode
+h) não pode, int é uma palavra chave reservada
+i) pode, mas não é recomendado
+j) pode
+k) não pode, é uma palavra reservada
+
+
