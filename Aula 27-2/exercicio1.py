@@ -1,13 +1,9 @@
-def calcular_tempo(t):
-    horas = t // 3600
-    minutos = (t % 3600) // 60
-    segundos = t % 60
-    return horas, minutos, segundos
+import math
 
-def main():
-    t = int(input("Digite a quantidade total de segundos: "))
-    horas, minutos, segundos = calcular_tempo(t)
-    print(f"{t} segundos correspondem a {horas} horas, {minutos} minutos e {segundos} segundos.")
+angulo = int(input("Escreva o ângulo em graus:\n"))
 
-if __name__ == "__main__":
-    main()
+print('O valor em radianos é:',math.radians(int(angulo)))
+print('O valor do seno é:',math.sin(int(angulo)))
+print('O valor do cosseno é:',math.cos(int(angulo)))
+print('O valor da tangente é:',math.tan(int(angulo)))
+
