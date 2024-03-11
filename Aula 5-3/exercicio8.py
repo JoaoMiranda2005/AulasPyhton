@@ -1,0 +1,1 @@
+# Não, não é possível fazer uma chamada para a função foo() com foo(1, 2, teste='test', 4) porque o argumento 4 seria ambíguo.

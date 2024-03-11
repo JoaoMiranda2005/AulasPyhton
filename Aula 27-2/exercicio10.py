@@ -16,11 +16,8 @@ def executar_opcao(opcao):
         2: opcao_2,
         3: opcao_3
     }
-    # Obtém a função correspondente à opção
     funcao = opcoes.get(opcao, opcao_padrao)
-    # Executa a função
     funcao()
 
-# Exemplo de uso
-opcao = 2  # Defina a opção desejada aqui
+opcao = 2
 executar_opcao(opcao)
